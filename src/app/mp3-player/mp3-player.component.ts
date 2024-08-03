@@ -15,65 +15,43 @@ export class Mp3PlayerComponent implements OnInit {
   msaapDisplayVolumeControls = true;
   msaapDisplayRepeatControls = true;
   msaapDisplayArtist = true;
-  msaapDisplayDuration = false;
+  msaapDisplayDuration = true;
   msaapDisablePositionSlider = false;
   msaapPlaylist: Track[] = [
     // Material Style Advance Audio Player Playlist
 
     {
-      title: 'Detroition',
-      link: 'https://jasonpottorffportfolio.com/music/Jazzyspoon%20-%20Technical%20Failure%20-%2001%20Detroition.mp3',
-      artist: 'Jazzyspoon',
-      duration: 5,
+      title: 'Melody',
+      link: 'https://hengwm.free.resourcespace.com/pages/download.php?direct=1&noattach=true&ref=1007&ext=mp3&k=9788e1abc8',
+      artist: 'Too Loud for the Legion',
+      duration: 2*60+59,
     },
     {
-      title: 'Be My Craft On Wax',
-      link: 'https://jasonpottorffportfolio.com/music/Jazzyspoon%20-%20Technical%20Failure%20-%2002%20Be%20My%20Craft%20On%20Wax.mp3',
-      artist: 'Jazzyspoon',
-      duration: 5,
+      title: 'Crimson Sea',
+      link: 'https://hengwm.free.resourcespace.com/pages/download.php?direct=1&noattach=true&ref=1008&ext=mp3&k=8c16b7d40a',
+      artist: 'Too Loud for the Legion',
+      duration: 3*60+24,
     },
     {
-      title: 'Perfect 2020',
-      link: 'https://jasonpottorffportfolio.com/music/Jazzyspoon%20-%20Technical%20Failure%20-%2003%20Perfect%202020%20(modmix).mp3',
-      artist: 'Jazzyspoon',
-      duration: 5,
+      title: 'Disappear',
+      link: 'https://hengwm.free.resourcespace.com/pages/download.php?direct=1&noattach=true&ref=1006&ext=mp3&k=ec1e55541c',
+      artist: 'Too Loud for the Legion',
+      duration: 3*60+28,
     },
     {
-      title: 'Something Blue',
-      link: 'https://jasonpottorffportfolio.com/music/Jazzyspoon%20-%20Technical%20Failure%20-%2004%20Something%20Blue.mp3',
-      artist: 'Jazzyspoon',
-      duration: 5,
+      title: 'Better Part of You',
+      link: 'https://hengwm.free.resourcespace.com/pages/download.php?direct=1&noattach=true&ref=1004&ext=mp3&k=b97f9b0d7f',
+      artist: 'Too Loud for the Legion',
+      duration: 3*60+19,
     },
     {
-      title: 'Spiritual Processor of 98',
-      link: 'https://jasonpottorffportfolio.com/music/Jazzyspoon%20-%20Technical%20Failure%20-%2005%20Spiritual%20Processor%20of%2098.mp3',
-      artist: 'Jazzyspoon',
-      duration: 5,
+      title: 'My Friends',
+      link: 'https://hengwm.free.resourcespace.com/pages/download.php?direct=1&noattach=true&ref=1005&ext=mp3&k=12baa30b7b',
+      artist: 'Too Loud for the Legion',
+      duration: 3*60+41,
     },
-    {
-      title: 'The Rusting Heart',
-      link: 'https://jasonpottorffportfolio.com/music/Jazzyspoon%20-%20Technical%20Failure%20-%2006%20The%20Rusting%20Heart.mp3',
-      artist: 'Jazzyspoon',
-      duration: 5,
-    },
-    // {
-    //   title: 'Ash and Dust',
-    //   link: 'http://www.jazzyspoon.com/tools/HalloJams/Jazzyspoon%20-%20Circle%20When%20Finished%20(remastered)%20-%2007%20Ash%20And%20Dust.mp3',
-    //   artist: 'Jazzyspoon',
-    //   duration: 3,
-    // },
-    // {
-    //   title: 'Our Whispered Rants',
-    //   link: 'https://jazzyspoon.com/tools/HalloJams/Jazzyspoon%20-%20Noise%20and%20Noir%20-%2002%20Our%20Whispered%20Rants.mp3',
-    //   artist: 'Jazzyspoon',
-    //   duration: 3,
-    // },
-    // {
-    //   title: 'Gone',
-    //   link: 'https://jazzyspoon.com/tools/HalloJams/Jazzyspoon%20&%20IG88%20-%20Jazzyspoon%20&%20IG88%20-%2001%20Gone.mp3',
-    //   artist: 'Jazzyspoon and IG88',
-    //   duration: 3,
-    // },
+
+
   ];
 
   ngOnInit(): void {}
